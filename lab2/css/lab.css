@@ -1,0 +1,54 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 300px;
+  margin: 30px;
+  border: 30px solid white;
+  border-bottom: 100px solid white;
+}
+
+p {
+  text-indent: 50px;
+  font-family: Georgia;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+div {
+  margin: 50px;
+}
+
+#content {
+  background-color: #989ebd;
+  border: 10px double #ffcbcb;
+  padding: 30px;
+  margin: 100px;
+
+}
+
+#ashley {
+  border: 4px dotted #dcd8d0;
+  columns: 500px 2;
+  padding: 50px;
+}
+
+#ashley p {
+  margin: 30px;
+}
+
+#nkem {
+  border: 4px dotted #dcd8d0;
+  columns: 500px 2;
+  padding: 50px;
+}
+
+#nkem p {
+  margin: 30px;
+}
