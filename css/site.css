@@ -27,12 +27,13 @@ a {
   color: black;
 }
 
-a:visited {
+#lab-links a:visited {
   color: #367b6b;
 }
 
-a:hover {
+#lab-links a:hover {
   color: white;
+  font-weight: bold;
 }
 
 /* navigation bar */
