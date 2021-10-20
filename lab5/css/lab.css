@@ -20,13 +20,13 @@ div {
   font-family: "Courier New";
 }
 
-div#tasks {
+div.tasks {
   margin: 100px;
   background-color: #c0d6e4;
   padding: 30px;
 }
 
-div.output {
+div#output {
   columns: 200px 2;
   text-align: center;
 }

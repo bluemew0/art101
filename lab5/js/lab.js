@@ -12,8 +12,8 @@ var year = 2021;
 var age = 2021 - year;
 
 // outputting variables
-document.writeln("Make: " + make + "<br>");
-document.writeln("Model: " + model + "<br>");
-document.writeln("Color: " + color + "<br>");
-document.writeln("Year: " + year + "<br>");
-document.writeln("Age: " + age + " years<br>");
+document.writeln("<pre>Make: " + make + "</pre><br>");
+document.writeln("<pre>Model: " + model + "</pre><br>");
+document.writeln("<pre>Color: " + color + "</pre><br>");
+document.writeln("<pre>Year: " + year + "</pre><br>");
+document.writeln("<pre>Age: " + age + " years</pre><br>");
