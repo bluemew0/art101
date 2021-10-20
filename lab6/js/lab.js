@@ -1,8 +1,7 @@
 // Summary. Lab 6 - Arrays & Objects
-
 // Description. Declaring and outputting JavaScript arrays and objects
-// @author Ashley Lu
-// @since  2021.10.21
+// Author: Ashley Lu
+// Created:  2021.10.19
 
 // declaring arrays and objects
 var myTransport = ["car", "bus", "walk"];
