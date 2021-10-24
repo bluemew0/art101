@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 7 - Functions</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<ul id="navigation-bar">
+		<li><a href="../lab6/index.html">&lt</a></li>
+		<li><a href="../index.html">home</a></li>
 
+	</ul>
+	<h1><br>Lab 7 - Functions</h1>
+
+	<div>
+		<h4>Challenge</h4>
+		<p>In this lab, we are getting familiar with JavaScript functions.</p>
+	</div>
+
+	<div>
+		<h4>Problems</h4>
+		<p>This lab was a little trickier than the previous ones. One, I had a really really small mistake that wasn't letting me see the results of my JavaScript code on my web page. I spent a solid 10 minutes trying to figure out why it wasn't showing up. Turned out I had writen &ltscriptsrc&gt instead of &ltscript src&gt. Two, I had originally used a for loop to try and iterate through the letters of the user input but then I had saw the example code and realized how much more complicated I was making the code. It's not quite a problem but it was something I had experienced.</p>
+	</div>
+
+	<div>
+		<h4>Results</h4>
+		<p>I have a Lab 7 index.html file that is styled with CSS and I have a JavaScript file that sorts the letters of a user's input.</p>
+		<div class="tasks">
+			<h4>Script Output</h4>
+			<div id= "output">
+				<script src="js/lab.js"></script>
+			</div>
+			<p>If there is no output, try refreshing the page.</p>
+
+			<h4>Task X</h4>
+			<ol>
+				<li><p class="question">How does sort() deal with upper and lowercase? Can you make your function sort lowercase and uppercase together?</p>
+					<p>It prioritizes uppercase letters so when sorting, it will first sort all the uppercase letters and then sort the lowercase letters. To make it ignore casing, you can either turn the whole word into uppercase or lowercase and then sort it.</p>
+					<div class="image">
+						<a target"_blank" href="img/taskX-1.png"><img src="img/taskX-1.png"></a>
+						<div class="caption">Here, you can see when there is no toLowerCase() or toUpperCase() method, the output sorts the uppercase letters first and then the lowercase letters.</div>
+					</div>
+				</li>
+
+				<li><p class="question">Can you make your funcion ignore/omit spaces?</p>
+					<p>Yes, by using the replace() method for strings. This can replace all instances of white space using replace(/(to be replaced)/g, (replacement)).</p>
+					<div class="image">
+						<a target"_blank" href="img/taskX-2.png"><img src="img/taskX-2.png"></a>
+						<div class="caption">Here is a screenshot showing the replace method. This is the current code that's being used for the script output.</div>
+					</div>
+				</li>
+
+				<li><p class="question">Can you make your function shuffle the user's name to create an anagram? Can you make it capitalize the words properly?</p>
+					<p>I can't really think of a way to do this efficiently. If the shuffled name needs to be an actual word in the dictionary, I'm lost. However, if this question is asking to shuffle the letters randomly and then capitalize the first word, you can utilize using a random number generator to scamble the positions of the different letters and then use toUpperCase() to capitalize the first letter.</p>
+				</li>
+
+				<li><p class="question">When you output a name, can you make your script output a &ltdiv&gt with a class that is styled in your css?</p>
+					<p>Yes, in fact, my code is already organized that way. The script output is already a part of a &ltdiv&gt called "output" and so adding CSS to that &ltdiv&gt will make changes. The only thing is that I added &ltpre&gt for the sorted name so unless I take that out, it will be unaffected.</p>
+					<div class="image">
+						<a target"_blank" href="img/taskX-4.png"><img src="img/taskX-4.png"></a>
+						<div class="caption">Here is a screenshot showing the removed &ltpre&gt code and seeing the output styled like the other text on this page.</div>
+					</div>
+				</li>
+
+				<li><p class="question">Can you make it so window.prompt() happens outside of your functions then pass the name as a parameter to the functions and return the result?</p>
+					<p>I originally did this when I didn't read the directions closely.</p>
+					<div class="image">
+						<a target"_blank" href="img/taskX-5.png"><img src="img/taskX-5.png"></a>
+						<div class="caption">Here is a screenshot of my JavaScript code with the window.prompt() declared outside of the sortName function.</div>
+					</div>
+				</li>
+		</div>
+
+		<p>Click to view images in a new tab! Image gallery code from <a href="https://www.w3schools.com/css/css_image_gallery.asp">w3schools.com</a>.</p>
+		<div class="gallery">
+			<a target="_blank" href="img/lab7-html.png">
+				<img src="img/lab7-html.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my Lab 7 HTML code.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/lab7-css.png">
+				<img src="img/lab7-css.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my Lab 7 CSS code.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/lab7-js.png">
+				<img src="img/lab7-js.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my Lab 7 JS code.</div>
+		</div>
+
+	</div>
 </body>
 </html>

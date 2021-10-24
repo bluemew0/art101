@@ -14,5 +14,5 @@ var myMainRide = { make: "Kia",
 // output
 document.writeln("Getting around: <pre>" + myTransport + "</pre><br>");
 document.writeln("My Main Ride: <pre>",
-                 JSON.stringify(myMainRide, null, '\t'),
+                 JSON.stringify(myMainRide, null, ' '),
                  "</pre>");

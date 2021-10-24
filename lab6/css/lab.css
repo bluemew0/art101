@@ -23,6 +23,7 @@ div {
 div.tasks {
   margin: 100px;
   background-color: #c0d6e4;
+  border-radius: 10px;
   padding: 30px;
 }
 
@@ -45,6 +46,7 @@ img {
 div.gallery {
   margin: 10px;
   border: 1px solid #fcc87f;
+  border-radius: 10px;
   float: left;
   width: 500px;
   height: 500px;
