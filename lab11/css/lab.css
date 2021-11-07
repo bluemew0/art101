@@ -75,7 +75,7 @@ h1 {
     background-color: #444444;
     border: 1px solid #968d81;
     border-radius: 0px;
-    color: #white;
+    color: white;
   }
 
   a {
@@ -96,32 +96,7 @@ h1 {
     font-size: 15px;
     font-weight: bold;
   }
-  
-  /* image gallery */
-  .gallery img {
-    width: 500px;
-    display: block;
-    object-fit: cover;
-  }
-  
-  div.gallery {
-    margin: 10px;
-    border: 1px solid #fcc87f;
-    border-radius: 10px;
-    float: left;
-    width: 500px;
-    height: 500px;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  div.caption {
-    padding: 15px;
-    text-align: center;
-    font-family: "Courier New";
-    margin: auto;
-  }
-  
+
   /* navigation bar */
   ul#navigation-bar {
     list-style-type: none;
