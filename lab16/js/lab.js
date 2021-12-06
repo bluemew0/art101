@@ -3,11 +3,8 @@
 // Author: Ashley Lu
 // Created:  2021.12.01
 
-// function that
 var comicObj = $.ajax({
-    // The URL for the request (from the api docs)
     url: "https://xkcd.com/info.0.json",
-    // Whether this is a POST or GET request
     type: "GET",
     dataType: "json",
     success: function(data) {
