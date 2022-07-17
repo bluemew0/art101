@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 8 - Anon Functions & Callbacks</title>
+	<script src="js/lab.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+<body>
+	<ul id="navigation-bar">
+		<li><a href="../lab7/index.html">&lt</a></li>
+		<li><a href="../../index.html">home</a></li>
+		<li><a href="../lab9/index.html">&gt</a></li>
+
+	</ul>
+	<h1><br>Lab 8 - Anon Functions & Callbacks</h1>
+
+	<div>
+		<h4>Challenge</h4>
+		<p>In this lab, we are getting familiar with JavaScript anonymous functions and callbacks.</p>
+	</div>
+
+	<div>
+		<h4>Problems</h4>
+		<p>I had some issues trying to figure out how to use an anonymous function with map() because I thought I was supposed to replace "function" with a function name and so I kept getting this error that said that I was missing a parenthesis when that wasn't really the case. (This can be seen in my screenshot for Task 1.) I also didn't quite understand the map() method too well until I played around with it and read up on it on <a href="https://www.w3schools.com/jsref/jsref_map.asp">w3schools.com.</a> I also didn't conceptually understand what callbacks were despite probably already having used them in my previous coding experience. I think I finally get them though. They're functions that are being used as a parameter to another function and that main function then "applies" the callback function to its own parameters.
+		<br><br>
+		I also struggled with trying to do the bonus task of making the code results show. Luckily, <a href="https://stackoverflow.com/questions/32939470/how-to-make-alert-box-and-innerhtml-show-in-javascript">this</a> helped with understanding how to put all the information that was given in the lecture and in the assignment together to make the results show. Also I couldn't get the code to work with using &ltdiv&gt so I had to change that and use &ltp&gt.</p>
+	</div>
+
+	<div>
+		<h4>Results</h4>
+		<p>I have a Lab 8 index.html file that is styled with CSS and a JavaScript file that operates on numbers using anonymous functions and callbacks.</p>
+		<div class="tasks">
+			<h4>Script Output</h4>
+			<div id="output">
+				Original: <pre><p id="original"></p></pre>
+				<br>
+				Squared: <p id="squared"></p>
+				<br>
+				Rooted: <p id="rooted"></p>
+				<br>
+				What numbers of the original are prime? <p id="original-p"></p>
+				<br>
+				Check the console or <button onClick="javascript:main()">click here.</button>
+			</div>
+			<br><br><br>
+			<h4>Timer</h4>
+			<h4 id="timer"></h4>
+			<p>It's not perfect as I can't figure out how to add a "0" when it is a single digit, but I used setInterval() which uses a callback function I made called changeTimer().</p>
+		</div>
+
+
+		<p>Click to view images in a new tab! Image gallery code from <a href="https://www.w3schools.com/css/css_image_gallery.asp">w3schools.com</a>.</p>
+		<div class="gallery">
+			<a target="_blank" href="img/html.png">
+				<img src="img/html.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my Lab 8 HTML code.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/task-1.png">
+				<img src="img/task-1.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of showing that I put the &ltscript&gt code in the &lthead&gt section.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/css.png">
+				<img src="img/css.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my Lab 8 CSS code.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/js-1.png">
+				<img src="img/js-2.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my JavaScript code. I decided to also make a function to check if the numbers were prime.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/js-2.png">
+				<img src="img/js-2.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is the second part of my JavaScript code where I am console.logging my anonymous function and my isPrime() function.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/task-2.png">
+				<img src="img/task-2.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of me working in the Google Chrome console. As you can see, I got stumped by the SyntaxError and the spelling of square.</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/task-4.png">
+				<img src="img/task-4.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my results in the console. (You can ignore the error message, I was in the middle of replacing my Task 4 image so when I took the screenshot, the file was missing.)</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="img/task-4b.png">
+				<img src="img/task-4b.png" width="600" height="400">
+			</a>
+			<div class="caption">Here is a screenshot of my results in the console. (You can ignore the error message, I was in the middle of replacing my Task 4 image so when I took the screenshot, the file was missing.)</div>
+		</div>
+
+
+	</div>
+</body>
+</html>
