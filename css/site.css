@@ -25,12 +25,13 @@ div {
 }
 
 p {
-  padding: 50px;
   font-family: Itim;
   letter-spacing: 1px;
   line-height: 25px;
   font-size: 20px;
   text-align: justify;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 /* ids */
@@ -48,7 +49,7 @@ p {
   font-size: 15px;
   letter-spacing: 1px;
   font-style: italic;
-  color: #968d81;
+  color: #adc5d4;
 }
 
 /* portrait */
@@ -67,11 +68,12 @@ figure {
 
 /* links */
 a {
+  font-family: Itim;
   text-decoration: none;
   color: black;
 }
 #source-code {
-  color: #63a797;
+  color: #5c83c4;
   font-weight: bold;
 }
 
@@ -80,13 +82,23 @@ a {
 }
 
 #lab-links a:visited {
-  color: #367b6b;
+  color: #5c83c4;
 }
 
 #lab-links a:hover {
   color: white;
   font-weight: bold;
 }
+
+#projects a:visited {
+  color: #5c83c4;
+}
+
+#projects a:hover {
+  color: white;
+  font-weight: bold;
+}
+
 
 /* divs */
 div#sub-intro {
@@ -95,6 +107,10 @@ div#sub-intro {
   text-align: center;
   padding: 0px;
   margin: 0px;
+}
+
+div#sub-intro p {
+  padding: 50px;
 }
 
 div#my-interests li {
@@ -124,7 +140,6 @@ ul#navigation-bar {
   text-align: center;
   width: 100%;
   font-size: 18px;
-  font-family: "Josefin Sans";
   letter-spacing: 2px;
 }
 
@@ -134,16 +149,17 @@ ul#navigation-bar li {
 
 ul#navigation-bar a {
   padding: 5px;
+  font-family: "Josefin Sans";
   padding-right: 10px;
   background-color: white;
-  color: #968d81;
+  color: #adc5d4;
   text-decoration: none;
   font-size: 20px;
 
 }
 
 ul#navigation-bar a:hover {
-  color: #968d81;
+  color: #5c83c4;
   font-weight: bold;
   background-color: white;
 }
