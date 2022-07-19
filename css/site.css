@@ -52,16 +52,34 @@ p {
   color: #adc5d4;
 }
 
+#social-media {
+  text-align: center;
+}
+
+@keyframes pressed {
+  from {
+    width: 35px;
+  }
+  to {
+    width: 50px;
+  }
+}
+#home-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  animation-name: pressed;
+  animation-duration: 4s;
+}
+
 /* portrait */
 img#my-portrait {
   width: 300px;
-  height: 450px;
 }
 figure {
   border: 20px solid white;
   border-bottom-width: 80px;
   border-radius: 8px;
-  object-fit: cover;
   width: 300px;
   height: 450px;
 }
@@ -73,7 +91,7 @@ a {
   color: black;
 }
 #source-code {
-  color: #5c83c4;
+  color: #4F93B6;
   font-weight: bold;
 }
 
@@ -82,7 +100,7 @@ a {
 }
 
 #lab-links a:visited {
-  color: #5c83c4;
+  color: #4F93B6;
 }
 
 #lab-links a:hover {
@@ -91,7 +109,7 @@ a {
 }
 
 #projects a:visited {
-  color: #5c83c4;
+  color: #4F93B6;
 }
 
 #projects a:hover {
@@ -99,6 +117,10 @@ a {
   font-weight: bold;
 }
 
+/* classes */
+.organizer {
+  padding: 0px;
+}
 
 /* divs */
 div#sub-intro {
@@ -126,6 +148,7 @@ div#lab-links {
   display: grid;
   grid: auto auto auto;
   columns: 5% 3;
+  margin-bottom: 80px;
 }
 
 div#lab-links li {
@@ -159,7 +182,7 @@ ul#navigation-bar a {
 }
 
 ul#navigation-bar a:hover {
-  color: #5c83c4;
+  color: #4F93B6;
   font-weight: bold;
   background-color: white;
 }
