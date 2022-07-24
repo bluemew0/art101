@@ -56,20 +56,10 @@ p {
   text-align: center;
 }
 
-@keyframes pressed {
-  from {
-    width: 35px;
-  }
-  to {
-    width: 50px;
-  }
-}
 #home-button {
   position: fixed;
   right: 30px;
   bottom: 30px;
-  animation-name: pressed;
-  animation-duration: 4s;
 }
 
 /* portrait */
