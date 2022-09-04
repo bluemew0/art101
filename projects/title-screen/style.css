@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pacifico&display=swap');
+
+html {
+    text-align: center;
+    background-color: #ffecbc;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: Pacifico;
+    font-size: 50px;
+    color: #eb72c4;
+    margin: 0;
+    margin-top: 80px;
+}
+
+main {
+    margin: 10px;
+    display: block;
+    left: 250px;
+    float: right;
+    position: absolute;
+}
+
+#phaser-game {
+    margin: 0 auto;
+    padding: 0;
+    border: 20px solid #fff7e6;
+    border-radius: 10px;
+    width: 1136px;
+    height: 640px;
+}
+
+#description {
+    padding: 10px 20%;
+    font-family: "Gloria Hallelujah";
+    font-size: 20px;
+    color: #eb72c4;
+}
+
+#nav-bar {
+    position: fixed;
+    display: block;
+    height: 100%;
+    width: 250px;
+    max-width: 50%;
+    background-color: #a1e3df;
+    background: linear-gradient(#fff7e6 30%,#a1e3df);
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    padding: 5px;
+    width: 100%;
+    display: relative;
+    position: relative;
+    left: -30px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#nav-bar li:first-of-type {
+    margin-top: 30px;
+}
+
+#nav-bar a {
+    padding: 0;
+    font-family: Pacifico;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #eb72c4;
+}
+
+#nav-bar a:hover {
+    color: #a1e3df;
+}
+
+@media (max-width: 1136px) {
+    #nav-bar {
+        max-width: 0;
+        overflow: hidden;
+    }
+    main {
+        float: left;
+        left: 0;
+    }
+}

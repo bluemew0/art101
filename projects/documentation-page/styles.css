@@ -142,3 +142,10 @@
       left: 300px;
     }
   }
+
+  @media (max-height: 200px) {
+    nav a {
+      font-size: 10px;
+      padding: 0.5rem;
+    }
+  }
